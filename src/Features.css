@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.features{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 5px;
+    font-size: large;
+    margin-left: 20px;
+    border-bottom: 0.1px solid green;
+}
+.features>p{
+    padding: 0 20px;
+    font-size: larger;
+    cursor: pointer;
+    font-family: 'Sevillana', cursive;
+    padding-bottom: 8px;
+}
+.features>p>a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.features>p:hover{
+    color: rgb(151, 207, 128);
+    border-bottom: 0.1px solid greenyellow;
+
+}
+.features>p>a:hover{
+    /* color: rgb(151, 207, 128); */
+    color: greenyellow;
+}
